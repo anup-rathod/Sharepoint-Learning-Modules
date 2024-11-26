@@ -1,0 +1,29 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/spfx-serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://bipldev.sharepoint.com/sites/ProjectManagement/Lists/order/AllItems.aspx",
+      "fieldCustomizers": {
+        "Percent": {
+          "id": "6fc39424-8079-41a1-82a1-f111e1c1c38e",
+          "properties": {
+            "sampleText": "Value"
+          }
+        }
+      }
+    },
+    "helloWorld": {
+      "pageUrl": "https://bipldev.sharepoint.com/sites/ProjectManagement/Lists/order/AllItems.aspx",
+      "fieldCustomizers": {
+        "Percent": {
+          "id": "6fc39424-8079-41a1-82a1-f111e1c1c38e",
+          "properties": {
+            "sampleText": "Value"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "field-task-field-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/fieldTask/FieldTaskFieldCustomizer.js",
+          "manifest": "./src/extensions/fieldTask/FieldTaskFieldCustomizer.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "FieldTaskFieldCustomizerStrings": "lib/extensions/fieldTask/loc/{locale}.js",
+    "ControlStrings": "node_modules/@pnp/spfx-controls-react/lib/loc/{locale}.js"
+  }
+}

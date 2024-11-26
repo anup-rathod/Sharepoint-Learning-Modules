@@ -1,0 +1,52 @@
+.fieldTask {
+
+  display: inline-block;
+}
+
+.icons {
+  cursor: pointer;
+  margin: 0 10px;
+  display: inline-block;
+  }
+
+.icons .hoverCardContent {
+  visibility: hidden;
+  position: absolute;
+  background-color: #fff;
+  color: #333;
+  text-align: left;
+  border-radius: 6px;
+  padding: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  z-index: 9999999; /* Ensure it's above other elements */
+  transition: opacity 0.3s;
+  opacity: 0;
+  width: max-content; /* Adjust width as needed */
+  top: -110px; /* Adjust to position above the icon */
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.icons:hover .hoverCardContent,
+.icons:focus .hoverCardContent {
+  visibility: visible;
+  opacity: 1;
+}
+
+.hoverCardContent table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.hoverCardContent th, .hoverCardContent td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.hoverCardContent th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}

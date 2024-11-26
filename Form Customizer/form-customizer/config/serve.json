@@ -1,0 +1,53 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/spfx-serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://bipldev.sharepoint.com/sites/ProjectManagement/Lists/Business/AllItems.aspx",
+      "formCustomizer": {
+        "componentId": "6dcf8693-f010-4a26-8452-0cde7b623690",
+        "PageType": 8,
+        "RootFolder": "/sites/mySite/Lists/MyList",
+        "properties": {
+          "sampleText": "Value"
+        }
+      }
+    },
+    "helloWorld_NewForm": {
+      "pageUrl": "https://bipldev.sharepoint.com/sites/ProjectManagement/Lists/Business/AllItems.aspx",
+      "formCustomizer": {
+        "componentId": "6dcf8693-f010-4a26-8452-0cde7b623690",
+        "PageType": 8,
+        "RootFolder": "/sites/mySite/Lists/MyList",
+        "properties": {
+          "sampleText": "Value"
+        }
+      }
+    },
+    "helloWorld_EditForm": {
+      "pageUrl": "https://bipldev.sharepoint.com/sites/ProjectManagement/Lists/Business/AllItems.aspx",
+      "formCustomizer": {
+        "componentId": "6dcf8693-f010-4a26-8452-0cde7b623690",
+        "PageType": 6,
+        "RootFolder": "/sites/mySite/Lists/MyList",
+        "ID": 1,
+        "properties": {
+          "sampleText": "Value"
+        }
+      }
+    },
+    "helloWorld_ViewForm": {
+      "pageUrl": "https://bipldev.sharepoint.com/sites/ProjectManagement/Lists/Business/AllItems.aspx",
+      "formCustomizer": {
+        "componentId": "6dcf8693-f010-4a26-8452-0cde7b623690",
+        "PageType": 4,
+        "RootFolder": "/sites/mySite/Lists/MyList",
+        "ID": 1,
+        "properties": {
+          "sampleText": "Value"
+        }
+      }
+    }
+  }
+}
